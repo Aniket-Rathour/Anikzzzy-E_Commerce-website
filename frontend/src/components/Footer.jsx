@@ -28,8 +28,19 @@ const Footer = () => {
 
             <div>
                 <p className='text-xl font-medium mb-5'> GET IN TOUCH</p>
+                <ul className='flex flex-col gap-1 text-gray-600'>
+                    <li>+91-81307-46342</li>
+                    <li>aniketrathour9911@gmail.com</li>
+                </ul>
             </div>
 
+        </div>
+
+        <div>
+            <hr/>
+            <p className='py-5 hover:underline text-sm text-center text-blue-700'>
+                Copyright 2025@ https://anikzzzy-e-commerce-website.vercel.app/  - All Right Reserved
+            </p>
         </div>
     </div>
   )
