@@ -1,8 +1,9 @@
 import React, { useContext, useEffect,useState } from 'react'
 import { ShopContext } from '../context/ShopContext'
-import Title from './title';
+
 import Product from '../pages/Product';
 import ProductItem from './ProductItem';
+import Title from './title';
 
 const LatestCollection = () => {
     const {products} = useContext(ShopContext);
